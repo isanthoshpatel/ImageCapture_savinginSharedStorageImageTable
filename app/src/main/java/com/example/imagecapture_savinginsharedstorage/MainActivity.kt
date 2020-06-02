@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
             //var file = File(getExternalFilesDir(Environment.DIRECTORY_DCIM),filename)
             //var file = File(getExternalCatchDir(Environment.DIRECTORY_DCIM),filename)
             var file = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM),"JPEG"+DateFormat.getDateTimeInstance().format(Date()))
-            //all above are, app specific, so encripted not useful for user
+            //all above are, app specific, so encripted not useful for user to view
 
             var outputstream = FileOutputStream(file)
 
